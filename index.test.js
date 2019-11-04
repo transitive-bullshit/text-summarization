@@ -1,6 +1,6 @@
 'use strict'
 
-const { test } = require('ava')
+const test = require('ava')
 const summarize = require('.')
 
 test('basic', async (t) => {
