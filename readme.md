@@ -16,7 +16,7 @@ It provides the most powerful and comprehensive text summarization available on 
 - Handles html or text-based content
 - Utilizes html structure as a signal of text importance
 - Includes basic abstractive shortening of extracted sentences
-- Usable as a node module or via commandline cli
+- Usable as a node module or cli
 - Thorough unit tests, huzzah!
 
 ## Install
@@ -111,6 +111,12 @@ Here's an example of a sentence's internal structure after normalization, proces
   "score": 5.601944765760555
 }
 ```
+
+## Iframely
+
+This module optionally supports using [iframely](https://iframely.com) to get social previews for any external links in the source html, adding the resulting images and summary text to the source pool of candidate sentences.
+
+To enable this, set the `IFRAMELY_BASE_URL` and `IFRAMELY_API_KEY` environment variables.
 
 ## References
 
