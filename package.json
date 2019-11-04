@@ -1,6 +1,6 @@
 {
   "name": "text-summarization",
-  "version": "0.3.3",
+  "version": "1.0.0",
   "description": "Automagically generate summaries from html or text.",
   "repository": "transitive-bullshit/text-summarization",
   "author": "Travis Fischer <travis@transitivebullsh.it>",
