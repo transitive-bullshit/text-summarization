@@ -1,6 +1,6 @@
 # text-summarization
 
-> Automagically generates summaries from html or text.
+> Automagically generate summaries from html or text.
 
 [![NPM](https://img.shields.io/npm/v/text-summarization.svg)](https://www.npmjs.com/package/text-summarization) [![Build Status](https://travis-ci.com/transitive-bullshit/text-summarization.svg?branch=master)](https://travis-ci.com/transitive-bullshit/text-summarization) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 

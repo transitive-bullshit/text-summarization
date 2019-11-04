@@ -1,7 +1,7 @@
 {
   "name": "text-summarization",
   "version": "0.3.3",
-  "description": "Automagically generates summaries from html or text.",
+  "description": "Automagically generate summaries from html or text.",
   "repository": "transitive-bullshit/text-summarization",
   "author": "Travis Fischer <travis@transitivebullsh.it>",
   "license": "MIT",
@@ -15,17 +15,17 @@
   },
   "dependencies": {
     "capitalize": "^1.0.0",
-    "cheerio": "^1.0.0-rc.2",
+    "cheerio": "^1.0.0-rc.3",
     "commander": "^2.11.0",
-    "dotenv-safe": "^4.0.4",
+    "dotenv-safe": "^8.1.0",
     "is-capitalized": "^1.0.0",
     "lodash.isequal": "^4.5.0",
     "lodash.uniqby": "^4.7.0",
-    "natural": "0.5.0",
-    "p-map": "^1.2.0",
-    "p-retry": "^1.0.0",
-    "request-image-size": "^2.0.0",
-    "request-promise-native": "^1.0.4",
+    "natural": "^0.6.3",
+    "p-map": "^3.0.0",
+    "p-retry": "^4.2.0",
+    "request-image-size": "^2.1.0",
+    "request-promise-native": "^1.0.8",
     "retext": "^5.0.0",
     "retext-readability": "^4.1.2",
     "retext-redundant-acronyms": "^1.2.1",
@@ -39,7 +39,7 @@
     "ava": "^0.25.0",
     "nock": "^9.0.14",
     "sinon": "^3.2.1",
-    "standard": "^10.0.2"
+    "standard": "^14.3.1"
   },
   "ava": {
     "failFast": true,
