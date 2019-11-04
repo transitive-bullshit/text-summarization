@@ -1,0 +1,48 @@
+{
+  "name": "text-summarization",
+  "version": "0.3.3",
+  "description": "Automagically generates summaries from html or text.",
+  "repository": "transitive-bullshit/text-summarization",
+  "author": "Travis Fischer <travis@transitivebullsh.it>",
+  "license": "MIT",
+  "main": "index.js",
+  "bin": {
+    "summarize": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "ava -v && standard"
+  },
+  "dependencies": {
+    "capitalize": "^1.0.0",
+    "cheerio": "^1.0.0-rc.2",
+    "commander": "^2.11.0",
+    "dotenv-safe": "^4.0.4",
+    "is-capitalized": "^1.0.0",
+    "lodash.isequal": "^4.5.0",
+    "lodash.uniqby": "^4.7.0",
+    "natural": "0.5.0",
+    "p-map": "^1.2.0",
+    "p-retry": "^1.0.0",
+    "request-image-size": "^2.0.0",
+    "request-promise-native": "^1.0.4",
+    "retext": "^5.0.0",
+    "retext-readability": "^4.1.2",
+    "retext-redundant-acronyms": "^1.2.1",
+    "retext-repeated-words": "^1.2.1",
+    "retext-simplify": "^4.1.1",
+    "sbd": "^1.0.12",
+    "stopwords": "^0.0.5",
+    "url-parse": "^1.2.0"
+  },
+  "devDependencies": {
+    "ava": "^0.25.0",
+    "nock": "^9.0.14",
+    "sinon": "^3.2.1",
+    "standard": "^10.0.2"
+  },
+  "ava": {
+    "failFast": true,
+    "snapshotDir": "./.snapshots"
+  }
+}
