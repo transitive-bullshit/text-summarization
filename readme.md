@@ -1,12 +1,12 @@
 # text-summarization
 
-> Automagically generate summaries from html or text.
+> Automagically generates summaries from html or text.
 
 [![NPM](https://img.shields.io/npm/v/text-summarization.svg)](https://www.npmjs.com/package/text-summarization) [![Build Status](https://travis-ci.com/transitive-bullshit/text-summarization.svg?branch=master)](https://travis-ci.com/transitive-bullshit/text-summarization) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 ## Intro
 
-This module powers Automagical's text summarization ([acquired by Verblio in 2018](https://www.verblio.com/blog/we-bought-a-company)).
+This module powers Automagical's text summarization, which was [acquired by Verblio in 2018](https://www.verblio.com/blog/we-bought-a-company).
 
 It provides the most powerful and comprehensive text summarization available on NPM.
 
@@ -17,7 +17,7 @@ It provides the most powerful and comprehensive text summarization available on 
 - Utilizes html structure as a signal of text importance
 - Includes basic abstractive shortening of extracted sentences
 - Usable as a node module or cli
-- Thorough unit tests, huzzah!
+- Thoroughly tested and used in production
 
 ## Install
 

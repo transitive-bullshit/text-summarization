@@ -24,6 +24,7 @@
     "natural": "^0.6.3",
     "p-map": "^3.0.0",
     "p-retry": "^4.2.0",
+    "request": "^2.88.0",
     "request-image-size": "^2.1.0",
     "request-promise-native": "^1.0.8",
     "retext": "^5.0.0",
@@ -31,8 +32,8 @@
     "retext-redundant-acronyms": "^1.2.1",
     "retext-repeated-words": "^1.2.1",
     "retext-simplify": "^4.1.1",
-    "sbd": "^1.0.12",
-    "stopwords": "^0.0.5",
+    "sbd": "^1.0.16",
+    "stopwords": "^0.0.9",
     "url-parse": "^1.2.0"
   },
   "devDependencies": {
