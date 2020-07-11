@@ -21,7 +21,7 @@ It provides the most powerful and comprehensive text summarization available on 
 
 ## Hosted Version
 
-<a href="https://dev_automagical-summarization.saasify.sh">
+<a href="https://synopsis.saasify.sh">
   <img
     src="https://badges.saasify.sh"
     height="40"
@@ -143,3 +143,5 @@ To enable this, set the `IFRAMELY_BASE_URL` and `IFRAMELY_API_KEY` environment v
 ## License
 
 MIT © [Travis Fischer](https://transitivebullsh.it)
+
+Support my OSS work by <a href="https://twitter.com/transitive_bs">following me on twitter <img src="https://storage.googleapis.com/saasify-assets/twitter-logo.svg" alt="twitter" height="24px" align="center"></a>
