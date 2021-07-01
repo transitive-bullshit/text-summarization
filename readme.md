@@ -19,18 +19,6 @@ It provides the most powerful and comprehensive text summarization available on 
 - Usable as a node module or cli
 - Thoroughly tested and used in production
 
-## Hosted Version
-
-<a href="https://synopsis.saasify.sh">
-  <img
-    src="https://badges.saasify.sh"
-    height="40"
-    alt="View Hosted API"
-  />
-</a>
-
-We're using [Saasify](https://saasify.sh) to host a [FaaS version](https://dev_automagical-summarization.saasify.sh) of this module that helps fund the open source authors behind the project.
-
 ## Install
 
 This module is usable either as a CLI or as a module.
